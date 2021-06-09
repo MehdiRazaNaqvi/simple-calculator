@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    
+  <!-- calculator -->
+  <div class="calculator">
+
+    <!-- display -->
+    <input id="screen" type="text" class="display" >
+    <!-- keys -->
+    <div class="keys">
+      <!-- 4 rows of keys -->
+      <div class="row">
+        <button value="7" onclick="getnumber(7)">7</button>
+        <button value="8" onclick="getnumber(8)">8</button>
+        <button value="9" onclick="getnumber(9)">9</button>
+        <button value="+" onclick="getnumber('+')" class="operator">+</button>
+      </div>
+      <div class="row">
+        <button onclick="getnumber(4)" value="4">4</button>
+        <button onclick="getnumber(5)" value="5">5</button>
+        <button onclick="getnumber(6)" value="6">6</button>
+        <button onclick="getnumber('-')" value="-" class="operator">-</button>
+      </div>
+      <div class="row">
+        <button onclick="getnumber(1)" value="1">1</button>
+        <button onclick="getnumber(2)" value="2">2</button>
+        <button onclick="getnumber(3)" value="3">3</button>
+        <button onclick="getnumber('*')" value="*" class="operator">*</button>
+      </div>
+      <div class="row">
+        <button onclick="clearnum()" class="operator" value="C" >C</button>
+        <button onclick="getnumber(0)" value="0">0</button>
+        <button onclick="getnumber('/')" value="/" class="operator">/</button>
+        <button onclick="result()" value="=" class="operator">=</button>
+      </div>
+      
+      
+    
+</div>
+
+  </div>
+  <!-- calculator body ends -->
+  
+ 
+</body>
+    
+</body>
+</html>
